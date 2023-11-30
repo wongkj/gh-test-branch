@@ -36,5 +36,5 @@ app.delete('/users/:id', (req, res) => {
 
 
 app.listen(port, () => {
-    console.log(`Listening on port ${port}`)
+    console.log(`Listening on the port ${port}`)
 })
