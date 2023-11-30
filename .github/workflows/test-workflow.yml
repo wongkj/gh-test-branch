@@ -1,7 +1,0 @@
-name: Release
-on:
-  workflow_run:
-    workflows: ["Run Tests"]
-    branches: [main]
-    types:
-      - completed
